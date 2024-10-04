@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<style>
+body{
+ background-color: rgba(26, 19, 124, 0.123);
+}
+
+</style>    
+
+    
+</head>
+<body >
+
+    <div class="custom-scroll">
+
+        <header>
+        <div id="menu-bar" class="fas fa-bars"> </div>
+
+        <!--navbar start -->
+        <a href="#" class="logo"><span>T</span>ravel Trekker</a>
+
+        <nav class="navbar">
+            <a href="index.html#home">home</a>
+            <a href="index.html#book">book</a>
+            <a href="index.html#packages">packages</a>
+            <a href="index.html#services">services</a>
+            <a href="index.html#gallery">gallery</a>
+            <a href="index.html#review">review</a>
+            <a href="index.html#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <!-- <i class="fas fa-user" id="login-btn"></i> -->
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+        <!--navbar end-->
+
+    </header>
+
+    <!-- Signup form start -->
+    <div class="signup-form-container">
+        <h2>Sign Up</h2>
+        <form action="signup-handler.php" method="post">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <!-- Signup form end -->
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Branch Locations</h3>
+                <ul>
+                    <li><a href="#">Karachi</a></li>
+                    <li><a href="#">Islamabad</a></li>
+                    <li><a href="#">Lahore</a></li>
+                    <li><a href="#">Newyork</a></li>
+                    <li><a href="#">Paris</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#book">Book</a></li>
+                    <li><a href="index.html#packages">Packages</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#gallery">Gallery</a></li>
+                    <li><a href="index.html#review">Reviews</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>At [Your Travel Website Name], we’re dedicated to helping you discover and book your perfect trip
+                    with ease. Explore the world with our expert recommendations and personalized service.</p>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js">   </script>
+
+</body>
+</html>
